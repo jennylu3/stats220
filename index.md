@@ -16,3 +16,5 @@ img_blurred <- image_convolve(meme, kern)
 image_append(c(meme, img_blurred))
 image_write(meme, "my_meme.png")
 ```
+#### information about the meme
+
