@@ -1,12 +1,12 @@
 ## *hello!*
 ```r
 library(magick)
-#square one
+# square one
 bear <-image_read("https://p1-tt.byteimg.com/origin/pgc-image/94f8841639a246e8a293b2b1ad9543f6") %>%
   image_scale(350) %>%
   image_annotate(text = "The little brown bear!") 
 
-#square two
+# square two
 stats_text <- image_blank(width = 350, 
                           height = 350, 
                           color = "#000000") %>%
@@ -15,6 +15,10 @@ stats_text <- image_blank(width = 350,
                  size = 80,
                  font = "Impact",
                  gravity = "center")
+                
+              
+# using the approach we used above
+
 bear2 <-c(bear, stats_text )
 meme<- image_append(bear2)
 c(meme) %>%
