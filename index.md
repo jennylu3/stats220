@@ -23,4 +23,5 @@ c(meme) %>%
 image_write(meme, "my_meme.png")
 ```
 #### information about the meme
+I found a picture of a bear on the Internet. I reduced the size of the picture and added text to it. I added a black rectangle the same size as the reduced image and wrote the name of the image in white. Finally, I spliced the picture with the black rectangle and output the final picture.
 
