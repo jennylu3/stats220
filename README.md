@@ -1,4 +1,4 @@
 # stats220
 https://jennylu3.github.io/stats220/
-##  **Here I share some exercises on making pictures and animations.**
+##  **Here I share some of my exercises by learning stats220.**
 ![](my_meme.png)
